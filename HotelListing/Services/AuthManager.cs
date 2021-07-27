@@ -45,7 +45,7 @@ namespace HotelListing.Services
                 expires: expiration,
                 signingCredentials: signingCredentials
             );
-
+             
             return token;
         }
 
